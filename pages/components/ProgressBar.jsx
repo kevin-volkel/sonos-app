@@ -32,10 +32,10 @@ const ProgressBar = ({
             value={songProgress}
             onChange={(e) => setSongProgress(e.target.value)}
             onMouseUp={changeTimestamp}
-            style={{
-              background: "rgb(0,212,255)",
-              background: `linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) ${getSongPercent}%, rgba(2,0,36,1) ${getSongPercent}%)`
-            }}
+            // style={{
+            //   background: "rgb(0,212,255)",
+            //   background: `linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) ${getSongPercent}%, rgba(2,0,36,1) ${getSongPercent}%)`
+            // }}
           />
         </div>
         <div className="time-stamps">
